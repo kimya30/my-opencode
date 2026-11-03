@@ -1,5 +1,5 @@
 # Managed by Remote-Op — re-rendered from the embedded template on Update; manual edits are overwritten
-name: open1
+name: kim1
 on:
   workflow_dispatch:
     inputs:
@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 340
     env:
       REPO_ORIGIN: https://github.com/kimya30/h-dashboard.git
-      WF_NAME: open1
+      WF_NAME: kim1
       OPENCODE_MODELS: ${{ vars.OPENCODE_DEFAULT_MODELS }}
 
     steps:
